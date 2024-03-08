@@ -1,0 +1,15 @@
+torchvision>=0.15.1+cu117
+torch>=2.0.0+cu117
+timm>=0.6.12
+numpy>=1.21.5
+mmcv-full>=1.7.1
+mmengine>=0.9.1
+ultralytics>=8.0.114
+tqdm>=4.64.0
+scipy>=1.4.1
+matplotlib>=3.2.2
+opencv-python>=4.6.0
+Pillow>=7.1.2
+PyYAML>=5.3.1
+
+
