@@ -1,7 +1,7 @@
 # FOD-YOLO README
 ## An Enhanced and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8
 
-[![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/imgs/overall%20structure.jpg)](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/imgs/overall%20structure.jpg)
+[![Overall Structure of the FOD-YOLO]([https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/imgs/overall%20structure.jpg](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg))]
 
 ## Abstract
 Object detection has been extensively applied in various fields due to the efficient performance of convolutional neural networks (CNNs). 
