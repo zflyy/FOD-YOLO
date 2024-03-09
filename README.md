@@ -1,5 +1,5 @@
 # FOD-YOLO README
-## FOD-YOLO （Title）
+## An Enhanced and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8
 
 [![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/imgs/overall%20structure.jpg)](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/imgs/overall%20structure.jpg)
 
