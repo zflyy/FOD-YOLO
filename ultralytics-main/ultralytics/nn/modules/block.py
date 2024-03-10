@@ -44,7 +44,7 @@ __all__ = (
     "DCNv3_C2f",
     "BiLevelRoutingAttention_nchw",
     "GSConv",
-    "VoVGSCSP"
+    "VoVGSCSP",
 )
 
 
