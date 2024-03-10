@@ -46,6 +46,11 @@ from .block import (
     CBFuse,
     CBLinear,
     Silence,
+    LDConv,
+    DCNv3_C2f,
+    BiLevelRoutingAttention_nchw,
+    GSConv,
+    VoVGSCSP,
 )
 from .conv import (
     CBAM,
@@ -135,4 +140,9 @@ __all__ = (
     "CBFuse",
     "CBLinear",
     "Silence",
+    "LDConv",
+    "DCNv3_C2f",
+    "BiLevelRoutingAttention_nchw",
+    "GSConv",
+    "VoVGSCSP",
 )
