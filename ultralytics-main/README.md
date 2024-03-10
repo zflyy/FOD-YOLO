@@ -51,7 +51,7 @@ This repository contains code for conducting deep learning experiments using the
 ## Prepare Dataset
 - **FOD-Tiny Dataset**
 
-    **Baidu Disk**: https://pan.baidu.com/s/1b7eFGkrgTm4F0Ww-hATqVw, Password:6oj8
+    **Baidu Disk**: https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w
 
     A detailed introduction to the fabric defect data set:
     
