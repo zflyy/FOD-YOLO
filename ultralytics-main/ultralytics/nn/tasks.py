@@ -875,7 +875,8 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
             C3x,
             RepC3,
             VoVGSCSP,
-            DCNv3_C2f
+            DCNv3_C2f,
+            GSConv,
 
         ):
             c1, c2 = ch[f], args[0]
