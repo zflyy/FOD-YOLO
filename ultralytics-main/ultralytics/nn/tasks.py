@@ -54,6 +54,7 @@ from ultralytics.nn.modules import (
     LDConv,
     DCNv3_C2f,
     BiLevelRoutingAttention_nchw,
+    GREHead,
 
 )
 from ultralytics.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, colorstr, emojis, yaml_load
