@@ -145,4 +145,5 @@ __all__ = (
     "BiLevelRoutingAttention_nchw",
     "GSConv",
     "VoVGSCSP",
+    "GREHead"
 )
