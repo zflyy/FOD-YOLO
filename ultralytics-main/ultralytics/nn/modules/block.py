@@ -708,7 +708,6 @@ class CBFuse(nn.Module):
 
 #########################################################LDConv###############################################
 class LDConv(nn.Module):
-    # Light Adaptive-weight downsampling
     def __init__(self, ch, group=16,reduction=16) -> None:
         super().__init__()
 
@@ -765,7 +764,6 @@ class DCNv3_CBS(nn.Module):
         return x
 
 class DCNv3_Bottleneck(Bottleneck):
-    """Standard bottleneck with DCNV3."""
 
     def __init__(self, c1, c2, shortcut=True, g=1, k=(3, 3), e=0.5):  # ch_in, ch_out, shortcut, groups, kernels, expand
         super().__init__(c1, c2, shortcut, g, k, e)
@@ -1249,7 +1247,6 @@ class BiLevelRoutingAttention_nchw(nn.Module):
 
 ######################################################SlimNeck##########################################
 class GSConv(nn.Module):
-    # GSConv https://github.com/AlanLi1997/slim-neck-by-gsconv
     def __init__(self, c1, c2, k=1, s=1, p=None, g=1, d=1, act=True):
         super().__init__()
         c_ = c2 // 2
