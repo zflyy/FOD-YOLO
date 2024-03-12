@@ -30,18 +30,25 @@ Object detection has been extensively applied in various fields due to the effic
 - Momentum: 0.937
 - Weight Decay: 1e-4
 - Number of Threads: 12
+- Optimizer: SGD
 
 ## Description
 This repository contains code for conducting deep learning experiments using the specified environment and parameters. The setup aims to balance model learning and computational resource consumption effectively. The parameters have been carefully chosen to control the learning process, enhance training stability, and prevent overfitting.
 
 ## Getting Started
 ```bash
-# Change directory
+# Compile DCNv3
+cd ultralytics-main/ultralytics/nn/modules/ops_dcnv3
+sh ./make.sh
+
+# Change directory, install ultralytics
 cd ultralytics-main
 pip install -e .
 
 # Install the required dependencies listed in `requirements.txt`.
+
 # Set up the environment based on the provided specifications.
+
 # Run the training script using the specified parameters.
 ```
 
