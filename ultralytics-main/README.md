@@ -1,8 +1,7 @@
 # README
 ## An Enhanced and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8
 
-[![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)
-
+![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)
 
 ## Abstract
 Foreign object debris (FOD) on runways may cause irreparable damage and detecting FOD in intellectual technology has attracted more and more attention. Due to the limitation of the equipment, the main goal of the FOD detection methods is to obtain as high accuracy as possible by employing the model with as few parameters as possible. In this article, we propose a FOD detection model named FOD-YOLO, which can improve the detection accuracy of small FOD items and simultaneously decrease the parameters of the implemented model. The proposed FOD-YOLO follows the overall framework of YOLOv8 and can be viewed as one of its improved variants. Firstly, to compensate for the loss of information regarding small objects during feature extraction, high-resolution feature maps were incorporated into the detection layer to fuse multiscale features, and the large object detection layer was removed from the model. Secondly, a Lightweight-Backbone with strong feature extraction ability was developed by introducing Lightweight Downsampling Convolution (LDConv) modules, Deformable Convolution v3 to reconstruct C2f (DCNv3_C2f) modules, and a Bi-level Routing Attention (BRA) mechanism. Subsequently, the lightweight Slim-Head was proposed by introducing slim-neck and Group-RepConv with Efficient Channel Attention Mechanism Head (GREHead) modules. Ultimately, To validate the effectiveness of the proposed algorithm, comparative experiments were conducted using the self-constructed small target FOD dataset. The results demonstrate that the proposed FOD-YOLO can achieve better accuracy, over the other state-of-the-art methods with small parameters.
@@ -91,8 +90,21 @@ The sizing range of targets in this study was defined based on absolute size dim
   |---------|:-----:|:-----:|:----:|:----:|
   | Number  | 5748  | 4137  | 1035 | 576  |
 
-  **Baidu Disk**: [https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w](https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w)
-  
+  **Related Dataset Link**: 
+### Related Datasets
+
+  - **FOD-Tiny Dataset**
+    - **Dataset Link**: [FOD-Tiny Dataset Link](https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w)
+
+  - **FOD-A Dataset**
+    - **Dataset Link**: [FOD-A Dataset Link](https://github.com/FOD-UNOmaha/FOD-data)
+
+  - **AI-TOD Dataset**
+    - **Dataset Link**: [AI-TOD Dataset Link](https://github.com/jwwangchn/AI-TOD)
+
+  - **VisDrone2019 Data**
+    - **Dataset Link**: [VisDrone2019 Data Link](https://github.com/VisDrone/VisDrone-Dataset)
+    
 ## Train and Test
 ```python
 # Train
@@ -116,7 +128,7 @@ See YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python) for more exa
 
 ## Results
 
-Test on GTX 3090Ti GPU:
+Test on Tiny_Fod Dataset on GTX 3090Ti GPU:
 
 | Model     | Backbone     | mAP@0.5:0.95 | Parameters/M | FPS |
 |-----------|:------------:|:------------:|:------------:|:---:|
