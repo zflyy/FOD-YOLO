@@ -54,17 +54,44 @@ pip install -e .
 
 ## Prepare Dataset
 - **FOD-Tiny Dataset**
+  A detailed introduction to split the FOD-Tiny dataset:
   
-  **Baidu Disk**: [https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w](https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w)
+  **Category Information**
   
-  category: Plastic Pipe, Plug, Aluminium Alloy Fitting, Plastic Buckle, Motor Aluminum Tube, Elliptical Iron Pipe, Circular Steel Column, Weight, Iron Ball, Golf, Hexagon Nut, Ball Nut
-  
-  A detailed introduction to the FOD-Tiny data set:
+  | No. | Category               | Number |
+  |-----|------------------------|--------|
+  | 1   | Plastic Pipe           | 385    | 
+  | 2   | Plug                   | 425    | 
+  | 3   | Aluminium Alloy Fitting| 477    | 
+  | 4   | Plastic Buckle         | 763    | 
+  | 5   | Motor Aluminum Tube    | 562    | 
+  | 6   | Elliptical Iron Pipe   | 542    | 
+  | 7   | Circular Steel Column  | 429    | 
+  | 8   | Weight                 | 502    | 
+  | 9   | Iron Ball              | 361    | 
+  | 10  | Golf                   | 335    | 
+  | 11  | Hexagon Nut            | 383    | 
+  | 12  | Ball Nut               | 584    |
+
+**Samples Distribution of FOD-Tiny Data:**
+ 
+The sizing range of targets in this study was defined based on absolute size dimensions. Within the MS COCO (Microsoft Common Objects in Context) dataset [11], targets were classified into three categories: small targets, medium targets, and large targets. Small targets referred to objects with dimensions smaller than 32 × 32 pixels, medium targets referred to objects with dimensions ranging from 32×32 to 96 × 96 pixels, and large targets referred to objects with dimensions larger than 96 × 96 pixels. The data statistics presented in Table I revealed that the dataset contained the highest number of small-sized targets, with a total of 5134 images containing small targets. Following that, 537 images included medium-sized targets, and finally, the dataset comprised 77 images featuring large-sized targets.
+
+  | Type   | Area           | Number |
+  |--------|:--------------:|:------:|
+  | Small  | 0 < a <= 32*32 | 5134   |
+  | Medium | 32*32 < a <= 96*96 | 537  |
+  | Large  | a > 96*96      | 77     |
+
+
+**Split the FOD-Tiny Data:**
   
   | Split   | Total | Train | Val  | Test |
   |---------|:-----:|:-----:|:----:|:----:|
-  | number  | 5748  | 4137  | 1035 | 576  |
+  | Number  | 5748  | 4137  | 1035 | 576  |
 
+  **Baidu Disk**: [https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w](https://pan.baidu.com/s/1CQPwVK-CY8kcgoD-QyHz4w)
+  
 ## Train and Test
 ```python
 # Train
