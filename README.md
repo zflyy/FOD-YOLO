@@ -140,3 +140,13 @@ Test on Tiny_Fod Dataset on GTX 3090Ti GPU:
 
 ## Acknowledgements
 - Special thanks to the developers of PyTorch, CUDA, Anaconda, and Ultralytics for their contributions to the deep learning ecosystem.
+
+
+## Main References
+1. [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)
+2. [YOLOv5 GitHub Repository](https://github.com/ultralytics/yolov5)
+3. [FOD-UNOmaha FOD Data GitHub Repository](https://github.com/FOD-UNOmaha/FOD-data)
+4. [AI-TOD GitHub Repository](https://github.com/jwwangchn/AI-TOD)
+5. [VisDrone Dataset GitHub Repository](https://github.com/VisDrone/VisDrone-Dataset)
+6. Li, C., Li, L., Jiang, H., Weng, K., Geng, Y., Li, L., Ke, Z., Li, Q., Cheng, M., Nie, W., Li, Y.: *YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications*. arXiv preprint, (2022). [Paper](https://doi.org/10.48550/arXiv.2209.02976)
+7. Wang, C. Y., Bochkovskiy, A., Liao, H. Y.: *YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors*. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 7464-7475 (2023). [Paper](https://doi.org/10.1109/CVPR52729.2023.00721)
