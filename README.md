@@ -1,5 +1,5 @@
 # README
-## An Enhanced and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8
+## An Improved and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8
 
 ![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)
 
