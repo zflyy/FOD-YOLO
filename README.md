@@ -141,7 +141,6 @@ Test on Tiny_Fod Dataset on GTX 3090Ti GPU:
 ## Acknowledgements
 - Special thanks to the developers of PyTorch, CUDA, Anaconda, and Ultralytics for their contributions to the deep learning ecosystem.
 
-
 ## Main References
 1. [Ultralytics GitHub Repository](https://github.com/ultralytics/ultralytics)
 2. [YOLOv5 GitHub Repository](https://github.com/ultralytics/yolov5)
@@ -153,4 +152,7 @@ Test on Tiny_Fod Dataset on GTX 3090Ti GPU:
 
 ## Contact Us
 If you have any questions or ideas, please feel free to reach out to us at:
-- **E-mail**: [hengzhang](mailto:hengzhang_xhu@163.com)
+- **E-mail**: [HengZhang](mailto:hengzhang_xhu@163.com)
+
+*This paper is still under review...*
+![Hope for good luck](https://github.com/Dafei-Zhang/FOD-YOLO/assets/162652305/4cdfe06a-2b2d-4df2-a608-162fc1fb70c6)
