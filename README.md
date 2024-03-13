@@ -3,7 +3,7 @@
 
 ![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)
 
-## Abstract
+## Introduction
 Foreign object debris (FOD) on runways may cause irreparable damage and detecting FOD in intellectual technology has attracted more and more attention. Due to the limitation of the equipment, the main goal of the FOD detection methods is to obtain as high accuracy as possible by employing the model with as few parameters as possible. In this article, we propose a FOD detection model named FOD-YOLO, which can improve the detection accuracy of small FOD items and simultaneously decrease the parameters of the implemented model. The proposed FOD-YOLO follows the overall framework of YOLOv8 and can be viewed as one of its improved variants. Firstly, to compensate for the loss of information regarding small objects during feature extraction, high-resolution feature maps were incorporated into the detection layer to fuse multiscale features, and the large object detection layer was removed from the model. Secondly, a Lightweight-Backbone with strong feature extraction ability was developed by introducing Lightweight Downsampling Convolution (LDConv) modules, Deformable Convolution v3 to reconstruct C2f (DCNv3_C2f) modules, and a Bi-level Routing Attention (BRA) mechanism. Subsequently, the lightweight Slim-Head was proposed by introducing slim-neck and Group-RepConv with Efficient Channel Attention Mechanism Head (GREHead) modules. Ultimately, To validate the effectiveness of the proposed algorithm, comparative experiments were conducted using the self-constructed small target FOD dataset. The results demonstrate that the proposed FOD-YOLO can achieve better accuracy, over the other state-of-the-art methods with small parameters.
 
 ## Innovations
@@ -150,3 +150,7 @@ Test on Tiny_Fod Dataset on GTX 3090Ti GPU:
 5. [VisDrone Dataset GitHub Repository](https://github.com/VisDrone/VisDrone-Dataset)
 6. Li, C., Li, L., Jiang, H., Weng, K., Geng, Y., Li, L., Ke, Z., Li, Q., Cheng, M., Nie, W., Li, Y.: *YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications*. arXiv preprint, (2022). [Paper](https://doi.org/10.48550/arXiv.2209.02976)
 7. Wang, C. Y., Bochkovskiy, A., Liao, H. Y.: *YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors*. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 7464-7475 (2023). [Paper](https://doi.org/10.1109/CVPR52729.2023.00721)
+
+## Contact Us
+If you have any questions or ideas, please feel free to reach out to us at:
+- **E-mail**: [hengzhang](mailto:hengzhang_xhu@163.com)
