@@ -80,7 +80,7 @@ The sizing range of targets in this study was defined based on absolute size dim
   | Type   | Area           | Number |
   |--------|:--------------:|:------:|
   | Small  | 0 < a <= 32*32 | 5134   |
-  | Medium | 32*32 < a <= 96*96 | 537  |
+  | Medium | 32\*32 < a <= 96\*96 | 537  |
   | Large  | a > 96*96      | 77     |
 
 
