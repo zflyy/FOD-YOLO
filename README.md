@@ -1,6 +1,6 @@
 # <div align="center">**An Improved and Lightweight Small-scale Foreign Object Debris Detection Model based on YOLOv8**</div>
 
-![Overall Structure of the FOD-YOLO](https://github.com/Dafei-Zhang/FOD-YOLO/blob/main/ultralytics-main/imgs/overall%20structure.jpg)
+![Overall Structure of the FOD-YOLO]("ultralytics-main/imgs/overall structure2.jpg")
 
 ## Introduction
 Foreign object debris (FOD) on runways may cause irreparable damage and detecting FOD in intellectual technology has attracted more and more attention. Due to the limitation of the equipment, the main goal of the FOD detection methods is to obtain as high accuracy as possible by employing the model with as few parameters as possible. In this article, we propose a Light FOD YOLO detection model named LF-YOLO, which can improve the detection accuracy of small FOD items and simultaneously decrease the parameters of the implemented model. The proposed LF-YOLO follows the overall framework of YOLOv8 and can be viewed as one of its improved variants. Firstly, to compensate for the loss of information regarding small objects during feature extraction, high-resolution feature maps were incorporated into the detection layer to fuse multiscale features, and the large object detection layer was removed from the model. Secondly, a Lightweight-Backbone with strong feature extraction ability was developed by introducing Lightweight Downsampling Convolution (LDConv) modules. Subsequently, the lightweight Slim-Head was proposed by introducing slim-neck and Group-RepConv with Efficient Channel Attention Mechanism Head (GREHead) modules. Ultimately, To validate the effectiveness of the proposed model, comparative experiments were conducted using the small target FOD dataset. The results demonstrate that the proposed LF-YOLO can achieve better accuracy, over the other state-of-the-art methods with small parameters. 
@@ -9,14 +9,13 @@ Foreign object debris (FOD) on runways may cause irreparable damage and detectin
 - Enhanced Multiscale Feature Fusion
 - Lightweight-Backbone
 - Slim-Head
-- MPDIoU Loss Function
 
 ## Environment Setup
 - Operating System: Ubuntu 18.04
 - CPU: Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
 - GPU: NVIDIA RTX 3090Ti with 24GB memory
 - Programming Language: Python 3.9.12
-- IDE: VS Code
+- IDE: Visual Studio Code
 - Deep Learning Framework: PyTorch 2.0.0
 - GPU Support: CUDA 11.7
 - Virtual Environment: Anaconda 4.13.0
@@ -36,9 +35,6 @@ This repository contains code for conducting deep learning experiments using the
 
 ## Getting Started
 ```bash
-# Compile DCNv3
-cd ultralytics-main/ultralytics/nn/modules/ops_dcnv3
-sh ./make.sh
 
 # Change directory, install ultralytics
 cd ultralytics-main
